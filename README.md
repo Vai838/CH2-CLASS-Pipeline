@@ -23,28 +23,7 @@ This project analyzes data from the **Chandrayaan-2 CLASS (Chandrayaan-2 Large A
 
 ### Requirements
 - Python 3.x
-- Libraries: `numpy`, `matplotlib`, `astropy`
-
-### Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Vai838/CH2-CLASS-Pipeline.git
-   ```
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-### Usage
-```python
-# Import and run the analysis
-from ch2_pipeline import CLASSPipeline
-pipeline = CLASSPipeline("path/to/data")
-pipeline.run_analysis()
-```
-
-### Examples
-Include code snippets or notebook links demonstrating the analysis on real Chandrayaan-2 data.
+- Libraries: `numpy`, `matplotlib`, `astropy`, `selenium`
 
 ### Contributing
 Feel free to submit pull requests or open issues for bugs or feature requests.
