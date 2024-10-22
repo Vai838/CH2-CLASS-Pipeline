@@ -8,3 +8,46 @@ sample image:
 
 I have created this pipeline as a part of the data analysis work I was doing wherein I was seeing correlation between Solar energetic protons (SEPs) from GOES data and CLASS data. This [python notebook](https://github.com/Vai838/CH2-CLASS-Pipeline/blob/main/CLASS_Pipeline.ipynb) file just downloads CLASS data and plots its graph. The part for GOES is excluded from this repo. In case anyone is interested in that code, please contact me.
 
+--------------------------------------------------------------------------------------------------------------------
+---
+
+# CH2-CLASS-Pipeline
+
+### Overview
+This project analyzes data from the **Chandrayaan-2 CLASS (Chandrayaan-2 Large Area Soft X-ray Spectrometer)**. The pipeline processes and visualizes lunar surface composition data from the CLASS instrument, enabling detailed spectral analysis.
+
+### Features
+- **Data Loading**: Downloads and processes CLASS datasets.
+- **Spectral Analysis**: Performs basic analysis to identify elemental compositions.
+- **Visualization**: Generates plots for easy interpretation of results.
+
+### Requirements
+- Python 3.x
+- Libraries: `numpy`, `matplotlib`, `astropy`
+
+### Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Vai838/CH2-CLASS-Pipeline.git
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+### Usage
+```python
+# Import and run the analysis
+from ch2_pipeline import CLASSPipeline
+pipeline = CLASSPipeline("path/to/data")
+pipeline.run_analysis()
+```
+
+### Examples
+Include code snippets or notebook links demonstrating the analysis on real Chandrayaan-2 data.
+
+### Contributing
+Feel free to submit pull requests or open issues for bugs or feature requests.
+
+### License
+[MIT License](LICENSE)
